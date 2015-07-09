@@ -1,7 +1,7 @@
 yayahud
 =============
 
-[![screenshot](http://imgur.com/a/GKiZf#0)](http://imgur.com/a/GKiZf)
+[![screenshot](http://i.imgur.com/k3mBAjT.jpg)](http://imgur.com/a/GKiZf)
 
 
 Add these commands to console/autoexec if you play without floating health
