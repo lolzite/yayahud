@@ -1,7 +1,7 @@
-yahud-classic
+yayahud
 =============
 
-[![screenshot](http://i.imgur.com/wKNLOvE.png)](http://imgur.com/a/we1U2)
+[![screenshot](http://imgur.com/a/GKiZf#0)](http://imgur.com/a/GKiZf)
 
 
 Add these commands to console/autoexec if you play without floating health
