@@ -220,7 +220,7 @@
 			"force_pos"	"1"
 
 			"angles_x" "0"
-			"angles_y" "190"
+			"angles_y" "210"
 			"angles_z" "0"
 			"origin_x" "190"
 			"origin_y" "0"

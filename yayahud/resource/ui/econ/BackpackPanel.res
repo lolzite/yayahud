@@ -230,7 +230,7 @@
 		"unicode"			"0"
 		"default"			"0"
 		
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"White"
 		"bgcolor_override"	"0 0 0 0"
 		"disabledFgColor_override" "235 226 202 255"
 		"disabledBgColor_override" "0 0 0 0"
@@ -337,7 +337,7 @@
 		"fieldName"		"mouseoveritempanel"
 		"xpos"			"c-70"
 		"ypos"			"270"
-		"zpos"			"100"
+		"zpos"			"102"
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"

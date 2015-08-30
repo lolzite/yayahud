@@ -874,10 +874,10 @@
 				"visible"		"0"
 			}
 		}
-		"Kills"
+		"KillsDebug"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Kills"
+			"fieldName"		"KillsDebug"
 			"font"			"NoveMedium24"
 			"labelText"		"%kills%"
 			"textAlignment"	"east"
@@ -922,10 +922,10 @@
 				"visible"		"0"
 			}
 		}
-		"Deaths"
+		"DeathsDebug"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Deaths"
+			"fieldName"		"DeathsDebug"
 			"font"			"NoveMedium24"
 			"labelText"		"%deaths%"
 			"textAlignment"	"west"
@@ -974,10 +974,10 @@
 				"ypos"		"r172"
 			}
 		}
-		"Assists"
+		"AssistsDebug"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Assists"
+			"fieldName"		"AssistsDebug"
 			"font"			"NoveMedium8"
 			"labelText"		"%assists%"
 			"fgcolor"		"Black"
@@ -1025,10 +1025,10 @@
 				"ypos"		"r162"
 			}
 		}
-		"Captures"
+		"CapturesDebug"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Captures"
+			"fieldName"		"CapturesDebug"
 			"font"			"NoveMedium8"
 			"labelText"		"%captures%"
 			"fgcolor"		"Black"
@@ -1074,10 +1074,10 @@
 				"ypos"		"r152"
 			}
 		}
-		"Defenses"
+		"DefensesDebug"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Defenses"
+			"fieldName"		"DefensesDebug"
 			"font"			"NoveMedium8"
 			"labelText"		"%defenses%"
 			"fgcolor"		"Black"
@@ -1120,10 +1120,10 @@
 				"ypos"		"r142"
 			}
 		}
-		"Domination"
+		"DominationDebug"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Domination"
+			"fieldName"		"DominationDebug"
 			"font"			"NoveMedium8"
 			"labelText"		"%dominations%"
 			"fgcolor"		"Black"
@@ -1166,10 +1166,10 @@
 				"ypos"		"r132"
 			}
 		}
-		"Revenge"
+		"RevengeDebug"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Revenge"
+			"fieldName"		"RevengeDebug"
 			"font"			"NoveMedium8"
 			"labelText"		"%Revenge%"
 			"fgcolor"		"Black"
@@ -1212,10 +1212,10 @@
 				"ypos"		"r122"
 			}
 		}
-		"Destruction"
+		"DestructionDebug"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Destruction"
+			"fieldName"		"DestructionDebug"
 			"font"			"NoveMedium8"
 			"labelText"		"%destruction%"
 			"fgcolor"		"Black"
@@ -1258,10 +1258,10 @@
 				"ypos"		"r172"
 			}
 		}		
-		"Healing"
+		"HealingDebug"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Healing"
+			"fieldName"		"HealingDebug"
 			"font"			"NoveMedium8"
 			"labelText"		"%healing%"
 			"fgcolor"		"Black"
@@ -1305,10 +1305,10 @@
 				"ypos"		"r162"
 			}
 		}
-		"Invuln"
+		"InvulnDebug"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Invuln"
+			"fieldName"		"InvulnDebug"
 			"font"			"NoveMedium8"
 			"labelText"		"%invulns%"
 			"fgcolor"		"Black"
@@ -1352,10 +1352,10 @@
 				"ypos"		"r152"
 			}
 		}
-		"Headshots"
+		"HeadshotsDebug"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Headshots"
+			"fieldName"		"HeadshotsDebug"
 			"font"			"NoveMedium8"
 			"labelText"		"%headshots%"
 			"fgcolor"		"Black"
@@ -1399,10 +1399,10 @@
 				"ypos"		"r142"
 			}
 		}
-		"Backstabs"
+		"BackstabsDebug"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Backstabs"
+			"fieldName"		"BackstabsDebug"
 			"font"			"NoveMedium8"
 			"labelText"		"%backstabs%"
 			"fgcolor"		"Black"
@@ -1446,10 +1446,10 @@
 				"ypos"		"r132"
 			}
 		}
-		"Teleports"
+		"TeleportsDebug"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Teleports"
+			"fieldName"		"TeleportsDebug"
 			"font"			"NoveMedium8"
 			"labelText"		"%teleports%"
 			"fgcolor"		"Black"
@@ -1493,10 +1493,10 @@
 				"ypos"		"r122"
 			}
 		}
-		"Bonus"
+		"BonusDebug"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Bonus"
+			"fieldName"		"BonusDebug"
 			"font"			"NoveMedium8"
 			"labelText"		"%bonus%"
 			"fgcolor"		"Black"
@@ -1533,10 +1533,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		"Support"
+		"SupportDebug"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Support"
+			"fieldName"		"SupportDebug"
 			"font"			"NoveMedium8"
 			"labelText"		"%support%"
 			"fgcolor"		"Black"
@@ -1565,10 +1565,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		"Damage"
+		"DamageDebug"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Damage"
+			"fieldName"		"DamageDebug"
 			"font"			"NoveMedium8"
 			"labelText"		"%damage%"
 			"fgcolor"		"Black"
@@ -1834,6 +1834,7 @@
 		"tall"				"480"
 		"visible"			"0"
 		"enabled"			"1"
+		"medal_width"		"0"
 		
 		"verbose"			"1"
 		

@@ -72,6 +72,24 @@
 					"font"				"Regular9"
 					"fgcolor"			"White"
 				}
+
+				if_competitive
+				{
+					"xpos"				"4"
+					"ypos"				"25"
+					"wide"				"48"
+					"textAlignment"		"center"
+					"font"				"PlayerPanelPlayerName"
+				}
+
+				if_readymode
+				{
+					"xpos"				"4"
+					"ypos"				"25"
+					"wide"				"48"
+					"textAlignment"		"center"
+					"font"				"PlayerPanelPlayerName"
+				}
 			}
 			
 			"classimage"
@@ -96,6 +114,24 @@
 					"tall"			"20"
 					"image"			"../vgui/hud_connecting"
 				}
+
+				if_competitive
+				{
+					"xpos"			"5"
+					"ypos"			"4"
+					"wide"			"20"
+					"tall"			"20"
+					"image"			"../vgui/hud_connecting"
+				}
+
+				if_readymode
+				{
+					"xpos"			"5"
+					"ypos"			"4"
+					"wide"			"20"
+					"tall"			"20"
+					"image"			"../vgui/hud_connecting"
+				}
 			}
 			
 			"classimagebg"
@@ -113,6 +149,16 @@
 				"PaintBackgroundType"	"0"
 				
 				if_mvm
+				{
+					"visible"		"1"
+				}
+
+				if_competitive
+				{
+					"visible"		"1"
+				}
+
+				if_readymode
 				{
 					"visible"		"1"
 				}
@@ -160,7 +206,17 @@
 				if_mvm
 				{
 					"visible"		"1"
-				}	
+				}
+
+				if_competitive
+				{
+					"visible"		"1"
+				}
+
+				if_readymode
+				{
+					"visible"		"1"
+				}
 			}
 			
 			"ReadyImage"
@@ -180,6 +236,16 @@
 				"scaleImage"		"1"
 
 				if_mvm
+				{
+					"visible"		"1"
+				}
+
+				if_competitive
+				{
+					"visible"		"1"
+				}
+
+				if_readymode
 				{
 					"visible"		"1"
 				}
@@ -224,6 +290,16 @@
 				{	
 					"visible"		"0"
 				}
+				
+				if_competitive
+				{	
+					"visible"		"0"
+				}
+				
+				if_readymode
+				{	
+					"visible"		"0"
+				}
 			}
 			
 			"specindex"
@@ -249,6 +325,18 @@
 				"wide"		"55"
 				"tall"		"35"
 			}
+			
+			if_competitive
+			{
+				"wide"		"55"
+				"tall"		"35"
+			}
+			
+			if_readymode
+			{
+				"wide"		"55"
+				"tall"		"35"
+			}
 		}
 		
 		if_mvm
@@ -259,8 +347,35 @@
 			"tall"					"480"
 
 			"team1_player_base_y"			"66"
+ 			"team2_player_base_y"			"66"
 			"team2_player_delta_x"			"52"
-		}		
+		}
+		
+		if_competitive
+		{
+			"xpos"					"c-250"
+			"ypos"					"10"
+			"wide"					"500"
+			"tall"					"480"
+
+			"team1_player_base_y"			"66"
+ 			"team2_player_base_y"			"66"
+			"team2_player_delta_x"			"52"
++			"team2_player_base_offset_x"	"5"
+		}
+		
+		if_readymode
+		{
+			"xpos"					"c-250"
+			"ypos"					"10"
+			"wide"					"500"
+			"tall"					"480"
+
+			"team1_player_base_y"			"66"
+ 			"team2_player_base_y"			"66"
+			"team2_player_delta_x"			"52"
++			"team2_player_base_offset_x"	"5"
+		}			
 	}
     "BlueTourBG"
 	{
@@ -278,6 +393,16 @@
 		"enabled"			"1"
         
         if_mvm
+		{
+			"visible"		"0"
+		}
+		
+		if_competitive
+		{
+			"visible"		"0"
+		}
+
+		if_readymode
 		{
 			"visible"		"0"
 		}
@@ -301,6 +426,16 @@
 		{
 			"visible"		"0"
 		}
+		
+		if_competitive
+		{
+			"visible"		"0"
+		}
+
+		if_readymode
+		{
+			"visible"		"0"
+		}
 	}
     "CondTourBG"
 	{
@@ -318,6 +453,16 @@
 		"enabled"			"1"
         
         if_mvm
+		{
+			"visible"		"0"
+		}
+		
+		if_competitive
+		{
+			"visible"		"0"
+		}
+
+		if_readymode
 		{
 			"visible"		"0"
 		}
@@ -341,6 +486,16 @@
 		"textAlignment"		"north-west"
 
 		if_mvm
+		{
+			"visible"		"0"
+		}
+
+		if_competitive
+		{
+			"visible"		"0"
+		}
+
+		if_readymode
 		{
 			"visible"		"0"
 		}
@@ -369,6 +524,16 @@
 		{
 			"visible"		"0"
 		}
+		
+		if_competitive
+		{
+			"visible"		"0"
+		}
+
+		if_readymode
+		{
+			"visible"		"0"
+		}
 	}
 	"TournamentBLUEStateLabel"
 	{	
@@ -390,6 +555,16 @@
 		"textAlignment"		"east"
 
 		if_mvm
+		{
+			"visible"		"0"
+		}
+		
+		if_competitive
+		{
+			"visible"		"0"
+		}
+
+		if_readymode
 		{
 			"visible"		"0"
 		}
@@ -417,6 +592,16 @@
 		{
 			"visible"		"0"
 		}
+		
+		if_competitive
+		{
+			"visible"		"0"
+		}
+
+		if_readymode
+		{
+			"visible"		"0"
+		}
 	}
 	"TournamentREDStateLabel"
 	{	
@@ -438,6 +623,16 @@
 		"textAlignment"		"west"
 
 		if_mvm
+		{
+			"visible"		"0"
+		}
+		
+		if_competitive
+		{
+			"visible"		"0"
+		}
+
+		if_readymode
 		{
 			"visible"		"0"
 		}
@@ -467,6 +662,16 @@
 		{
 			"visible"		"0"
 		}
+		
+		if_competitive
+		{
+			"visible"		"0"
+		}
+
+		if_readymode
+		{
+			"visible"		"0"
+		}
 	}
     "ReadyUpLabel"
 	{	
@@ -490,6 +695,16 @@
 		"textAlignment"		"north-west"
         
         if_mvm
+		{
+			"visible"		"0"
+		}
+		
+		if_competitive
+		{
+			"visible"		"0"
+		}
+
+		if_readymode
 		{
 			"visible"		"0"
 		}
@@ -521,6 +736,30 @@
 		"textAlignment"		"north-west"
         
         if_mvm
+		{
+			"font"			"ChatFont"
+            "textAlignment"		"center"
+			"xpos"			"218"
+			"ypos"			"100"
+			"wide"			"200"
+			"tall"			"20"
+			"zpos"			"3"
+			"visible"			"1"
+		}
+        
+        if_competitive
+		{
+			"font"			"ChatFont"
+            "textAlignment"		"center"
+			"xpos"			"218"
+			"ypos"			"100"
+			"wide"			"200"
+			"tall"			"20"
+			"zpos"			"3"
+			"visible"			"1"
+		}
+        
+        if_readymode
 		{
 			"font"			"ChatFont"
             "textAlignment"		"center"
