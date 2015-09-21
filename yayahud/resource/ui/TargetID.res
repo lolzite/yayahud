@@ -83,12 +83,34 @@
         "textinsety" "99"
 	}
 
+	"TargetNameLabel"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"TargetNameLabel"
+		"font"			"Medium14"				//Medium12
+		"xpos"			"0"
+		"ypos"			"0"	
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"fgcolor"		"Black"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"%targetname%"
+		"textAlignment"		"west"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"textinsetx" "1"
+	}
+
 	"TargetNameLabelDebug"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelDebug"
 		"font"			"Medium14"				//Medium12
-		"xpos"			"55"
+		"xpos"			"59"
 		"ypos"			"17"	
 		"zpos"			"2"
 		"wide"			"640"
