@@ -114,7 +114,7 @@
 	}
 	"MutePlayersButton"
 	{
-		"label"			"X"
+		"label"			"O"
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
         "tooltip" "MUTE PLAYERS"

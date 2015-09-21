@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"MedicBG"
-		"xpos"		"c-60"
+		"xpos"		"c98"
 		"ypos"		"343"
 		"zpos"		"-1"
 		"wide"		"120"
@@ -105,7 +105,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"c-64"
+		"xpos"			"c94"
 		"ypos"			"335"	
 		"zpos"			"2"
 		"wide"			"140"	
@@ -126,7 +126,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
-		"xpos"			"c-63"
+		"xpos"			"c95"
 		"ypos"			"336"	
 		"zpos"			"-1"
 		"wide"			"140"	

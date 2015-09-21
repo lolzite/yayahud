@@ -83,12 +83,12 @@
         "textinsety" "99"
 	}
 
-	"TargetNameLabel"
+	"TargetNameLabelDebug"
 	{	
 		"ControlName"		"CExLabel"
-		"fieldName"		"TargetNameLabel"
+		"fieldName"		"TargetNameLabelDebug"
 		"font"			"Medium14"				//Medium12
-		"xpos"			"53"
+		"xpos"			"55"
 		"ypos"			"17"	
 		"zpos"			"2"
 		"wide"			"640"
@@ -103,35 +103,14 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"textinsetx" "1"
-
 	}
-    "TargetNameLabelShadow"
-	{	
-		"ControlName"		"CExLabel"
-		"fieldName"		"TargetNameLabelShadow"
-		"font"			"Medium13"				//Medium12
-		"xpos"			"53"
-		"ypos"			"-1"	
-		"zpos"			"-52"
-		"wide"			"640"
-		"tall"			"14"
-		"fgcolor"		"HudShadow"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"%targetname%"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-
-	}
+	
 	"TargetDataLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabel"
 		"font"			"NoveMedium9"
-		"xpos"			"52"
+		"xpos"			"58"
 		"ypos"			"3"		
 		"zpos"			"4"
 		"wide"			"640"

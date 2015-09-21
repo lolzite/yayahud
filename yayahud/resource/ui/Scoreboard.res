@@ -10,7 +10,7 @@
 		"tall"				"480"
 		"visible"			"1"
 		"enabled"			"1"
-		"medal_width"		"15"
+		"medal_width"		"0"
 		"avatar_width"		"56"        // 42 for lower res
 		"name_width"		"55"
 		"status_width"		"15"

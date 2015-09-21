@@ -2452,7 +2452,7 @@
 			"textinsetx"	"0"
             "textinsety"	"-3"
 			"use_proportional_insets" "1"
-			"font"			"SymbolL"
+			"font"			"SymbolS"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"

@@ -17,10 +17,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"r80"
+		"xpos"			"r40"
 		"ypos"			"r17"	//1
 		"zpos"			"-22"
-		"wide"			"80"
+		"wide"			"30"
 		"tall"			"17"
 		"fillcolor"		"DarkGray"
 		"visible"		"1"
@@ -87,7 +87,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"r80"
+		"xpos"					"r66"
 		"ypos"					"r19"
 		"zpos"					"2"
 		"wide"					"80"
