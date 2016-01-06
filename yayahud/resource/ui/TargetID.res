@@ -102,7 +102,7 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"textinsetx" "15"
+		"textinsetx" "10"
 	}
 
 	"TargetNameLabelDebug"
@@ -146,7 +146,7 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"textinsetx" "10"
+		"textinsetx" "20"
 	}
     
 	"SpectatorGUIHealth"
