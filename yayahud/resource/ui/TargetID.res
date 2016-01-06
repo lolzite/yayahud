@@ -146,6 +146,7 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"textinsetx" "1"
 	}
     
 	"SpectatorGUIHealth"
