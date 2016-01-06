@@ -102,7 +102,7 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"textinsetx" "10"
+		"textinsetx		"15"
 	}
 
 	"TargetNameLabelDebug"
@@ -124,7 +124,7 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"textinsetx" "10"
+		"textinsetx"		"1"
 	}
 	
 	"TargetDataLabel"
